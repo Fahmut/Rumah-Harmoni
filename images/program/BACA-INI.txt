@@ -1,0 +1,12 @@
+Taruh foto asli kegiatan tiap kategori program di sini, misalnya:
+- stimulasi-1.jpg, stimulasi-2.jpg
+- bermain-belajar-1.jpg
+- seni-kreativitas-1.jpg
+- karakter-agama-1.jpg
+- nutrisi-makan-1.jpg
+
+Lalu buka js/data.js, cari kategori yang sesuai, dan isi array "foto", contoh:
+foto: ["images/program/stimulasi-1.jpg", "images/program/stimulasi-2.jpg"]
+
+- 1 foto = tampil statis (tidak slide)
+- 2 foto atau lebih = otomatis jadi slideshow (ganti foto tiap 4 detik + ada titik navigasi di bawah foto)
